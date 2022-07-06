@@ -1,0 +1,49 @@
+.effective-solutions {
+  color: var(--text-color);
+  background-color: var(--brand-background-color);
+  text-align: center;
+  height: 400px;
+  max-width: 768px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  padding-right: 42px;
+  padding-left: 42px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/mobile/header.jpg');background-size: cover; background-repeat: no-repeat;background-position: center top;
+
+
+     &__tittle {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.61;
+      display: flex;
+      flex-wrap: wrap;
+      letter-spacing: 0.06em;
+      margin: 0 auto;
+      text-transform: uppercase;}}
+
+
+/* .effective-solutions {
+    color: var(--text-color);
+    background-color: var(--brand-background-color);
+    text-align: center;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/background.jpg'); */
+
+
+   /*    &__tittle {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3636363636;
+        letter-spacing: 0.06em;
+        width: 696px;
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
+  } */
+  

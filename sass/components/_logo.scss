@@ -1,0 +1,15 @@
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.3830769231;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+
+    &--studio {color: black};
+    &--web {color: var(--brand-color);}
+    &--footer {color: var(--text-color);}
+  
+}

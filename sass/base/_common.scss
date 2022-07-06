@@ -1,0 +1,39 @@
+.container {width: 100%;
+padding-left: 15px;
+padding-right: 15px;}
+
+@media screen and (min-width: 480x) and (max-width: 768px)
+{.container {max-width: 450px;}}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px)
+{.container {max-width: 738px;
+padding-left: 15px;
+padding-right: 15px;}}
+
+@media screen and (min-width: 1200px)
+{.container {max-width: 1170px;
+padding-left: 15px;
+padding-right: 15px;}}
+
+
+
+/* .container {
+      width: 1200px;
+      margin: 0 auto;
+
+      &--effective-solutions {
+        align-items: center;
+      }
+
+      &--footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+      }
+      &--header {
+        display: flex;
+        align-items: center;
+      }
+    } */
+    
