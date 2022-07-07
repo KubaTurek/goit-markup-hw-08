@@ -700,7 +700,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .clients-logo {
@@ -708,18 +708,21 @@ body {
   justify-content: space-between;
   padding-left: 0px;
   flex-wrap: wrap;
+  flex-basis: calc((100% - 30px) / 2);
 }
 .clients-logo__item {
   list-style: none;
   fill: #afb1b8;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: calc((100% - 30px) / 2);
 }
 .clients-logo__image {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition-property: fill, color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 }
 .clients-logo__image:hover, .clients-logo__image:focus {
   fill: #2196f3;
