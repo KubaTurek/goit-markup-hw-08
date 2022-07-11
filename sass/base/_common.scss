@@ -18,16 +18,22 @@
   }}
 
 
-@media screen and (min-width: 768px) and (max-width: 1200px)
-{.container {max-width: 1200px;
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{.container {max-width: 1199px;
 padding-left: 15px;
 padding-right: 15px;}}
 
 @media screen and (min-width: 1200px)
-{.container {max-width: 1170px;
-padding-left: 15px;
-padding-right: 15px;}}
+{.container {max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
 
+  &--footer {
+    display: flex;
+  }
+}
+}
 
 
 /* .container {
