@@ -243,11 +243,10 @@ body {
   position: absolute;
   top: 21px;
   right: 25px;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
   fill: black;
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 .mobile-menu__open {
@@ -336,6 +335,15 @@ body {
   line-height: 1.22;
   cursor: pointer;
   letter-spacing: 0.02em;
+}
+
+.modal-mobile__svg {
+  z-index: 10;
+}
+
+.modal-mobile__svg:focus,
+.modal-mobile__svg:hover {
+  fill: var(--brand-color);
 }
 
 @media screen and (min-width: 768px) {
