@@ -219,6 +219,8 @@ body {
   position: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
   top: 0;
   left: 0;
   width: 100%;
@@ -308,7 +310,8 @@ body {
 }
 
 .mobile-menu__ul-contacts {
-  margin-top: auto;
+  margin-bottom: 64px;
+  padding-left: 0px;
 }
 
 .mobile-menu__line {
@@ -323,7 +326,7 @@ body {
   list-style: none;
   align-items: center;
   margin-top: 64px;
-  margin-top: auto;
+  padding-left: 0px;
 }
 
 .mobile-menu__social-media-list {

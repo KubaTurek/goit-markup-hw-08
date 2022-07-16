@@ -17,6 +17,8 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,12 +73,14 @@ text-decoration: none;}
 .mobile-menu__link {text-decoration: none;
 color: black;}
 .mobile-menu__ul {padding-left: 0px;}
-.mobile-menu__ul-contacts {margin-top:auto;}
+.mobile-menu__ul-contacts {margin-bottom:64px;
+padding-left: 0px;}
 .mobile-menu__line {width: 22px; height: 0px;
 border-top: 1px solid rgba(33, 33, 33, 0.2);
 transform: rotate(90deg);}
 .mobile-menu__social-media {display: flex;
-list-style: none; align-items: center; margin-top: 64px; margin-top: auto;}
+list-style: none; align-items: center; margin-top: 64px;
+padding-left: 0px;}
 .mobile-menu__social-media-list {color: var(--brand-color);
   font-weight: 500;
   font-size: 18px;
